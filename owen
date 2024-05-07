@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen's AI Book Recommendations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .book {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .book h2 {
+            margin-top: 0;
+        }
+        .book p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Owen's AI Book Recommendations</h1>
+</header>
+
+<div class="container">
+    <div class="book">
+        <h2>Maze Runner</h2>
+        <img src="book1.jpg" alt="Book Title 1">
+        <p>Description of Book 1.</p>
+        <p><a href="#">Read more...</a></p>
+    </div>
+    <div class="book">
+        <h2>Book Title 2</h2>
+        <img src="book2.jpg" alt="Book Title 2">
+        <p>Description of Book 2.</p>
+        <p><a href="#">Read more...</a></p>
+    </div>
+    <!-- Add more books as needed -->
+</div>
+
+</body>
+</html>
